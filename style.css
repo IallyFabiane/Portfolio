@@ -213,6 +213,7 @@ a:hover {
 .card-text {
     width: 40%;
     letter-spacing: 1px;
+    font-weight: 500;
     color: rgb(110, 110, 110);
     text-align: center;
     padding-top: 30px;
