@@ -186,7 +186,7 @@ a:hover {
 
 .card-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     width: 90%;
     margin-left: 60px;
