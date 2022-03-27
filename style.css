@@ -227,7 +227,7 @@ a:hover {
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     position: relative;
     margin-left: 20px;
