@@ -290,7 +290,7 @@ a:hover {
     color: #1E1E2A;
 }
 
-media screen and (max-width: 970px) {
+@media screen and (max-width: 970px) {
 
     .card-container{
         margin: 0 auto;
