@@ -289,3 +289,64 @@ a:hover {
     justify-content: center;
     color: #1E1E2A;
 }
+
+media screen and (max-width: 970px) {
+
+    .card-container{
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-wrapper {
+        margin: auto;
+    }
+
+    .card-text h2 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1264px) {
+    .container {
+        padding-left: 30px;
+        padding-right: 20px;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    .card-container {
+        width: 80vw;
+    }
+
+    .card-container h2 {
+        padding: 5px;
+    }
+
+    .card {
+        height: 200px;
+        width: 150px;
+    }
+
+    .card-wrapper h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1782px) {
+    .header-container {
+        justify-content: end;
+        background-origin: padding-box;
+        padding: 30px;
+        background-size: 60%;
+    }
+
+    h1, h2, .social-media { 
+        padding-left: 30px;
+        margin-bottom: 10px;
+    }
+}
