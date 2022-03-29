@@ -291,14 +291,7 @@ a:hover {
 }
 
 @media screen and (max-width: 970px) {
-    
-    .header-container {
-        justify-content: end;
-        background-origin: padding-box;
-        padding: 30px;
-        background-size: 90%;
-    }
-
+  
     h1 {
         font-size: 20px;
     }
