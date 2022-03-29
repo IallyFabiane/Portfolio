@@ -330,11 +330,6 @@ a:hover {
         margin: auto;
     }
     
-    .card:hover > .card-wrapper::before {
-        height: 100px;
-        width: 100px;
-        opacity: 1;
-    }
     .card-text h2 {
         font-size: 12px;
     }
@@ -360,7 +355,13 @@ a:hover {
         height: 200px;
         width: 150px;
     }
-
+    
+     .card:hover > .card-wrapper::before {
+        height: 100px;
+        width: 100px;
+        opacity: 1;
+    }
+    
     .card-wrapper h2 {
         font-size: 20px;
     }
