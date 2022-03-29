@@ -294,6 +294,7 @@ a:hover {
     
     .header-container {
         justify-content: end;
+        align-items: flex-end;
         background-origin: padding-box;
         padding: 30px;
         background-size: 90%;
