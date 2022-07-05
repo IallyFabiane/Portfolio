@@ -290,6 +290,29 @@ a:hover {
     color: #1E1E2A;
 }
 
+@media screen and (max-width: 420px) {
+
+    .header-container {
+        background-position: top left;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 10px;
+    }
+
+    .menu-itens ul li a{
+        font-size: 18px;
+    }
+
+    .social-media {
+        display: inline;
+    }
+}
+
 @media screen and (max-width: 970px) {
   
     h1 {
@@ -309,6 +332,10 @@ a:hover {
         margin-bottom: 10px;
     }
   
+
+    .menu-itens ul li a{
+        font-size: 30px;
+    }
      
     .card {
         height: 200px;
