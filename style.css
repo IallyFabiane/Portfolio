@@ -175,6 +175,10 @@ a:hover {
     opacity: 1;
 }
 
+main.container {
+    padding: 0;
+}
+
 .container {
     height: auto;
     width: 100%;
@@ -186,10 +190,10 @@ a:hover {
 
 .card-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 90%;
-    margin-left: 60px;
+    margin: 0 auto;
 }
 
 .card {
@@ -227,7 +231,7 @@ a:hover {
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     position: relative;
     margin-left: 20px;
@@ -363,6 +367,7 @@ a:hover {
 }
 
 @media screen and (max-width: 1264px) {
+    
     .container {
         padding-left: 30px;
         padding-right: 20px;
@@ -394,12 +399,13 @@ a:hover {
     }
 }
 
+
 @media screen and (max-width: 1782px) {
     .header-container {
         justify-content: end;
         background-origin: padding-box;
         padding: 30px;
-        background-size: 60%;
+        background-size: 50%;
     }
 
     h1, h2, .social-media { 
