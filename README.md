@@ -1,5 +1,5 @@
 # Portfolio
 
-Project deployed on: https://superb-syrniki-1a9f6f.netlify.app/
+Project deployed on: https://amazing-narwhal-514548.netlify.app/
 
 Adaptado de Gabriela Pinheiro 
