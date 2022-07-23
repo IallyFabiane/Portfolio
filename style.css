@@ -190,7 +190,7 @@ main.container {
 
 .card-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     width: 90%;
     margin: 0 auto;
